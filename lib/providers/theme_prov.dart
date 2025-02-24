@@ -12,6 +12,7 @@ class ThemeProv extends ChangeNotifier {
   Color doneIconClr = Colors.black;
   Color textFldBckClr = Colors.black;
   Color dayOrSmDayClr = Colors.white54;
+  Color ff = Colors.white54;
 
 
   void toggleTheme () {
