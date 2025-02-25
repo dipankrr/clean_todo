@@ -22,8 +22,7 @@ class TodayTasks extends StatelessWidget {
               final data = prov.allToDoData;
               int todayCount = data.where((todo) => todo[DBHelper.columnIsToday] == 1 && todo[DBHelper.columnIsDone] == 0).length;
 
-              return
-                Expanded(
+              return Expanded(
                   flex: 7,
                   child: SizedBox(
                     width: double.infinity,

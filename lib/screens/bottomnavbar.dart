@@ -21,7 +21,7 @@ class BottomNavbar extends StatelessWidget {
                 borderRadius: BorderRadius.circular(10)
             ),
 
-            child: Icon(Icons.settings, size: 25,),
+            child: Icon(Icons.person_add_alt_1_rounded, size: 25,),
           ),
 
           GestureDetector(
